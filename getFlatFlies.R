@@ -1,0 +1,13 @@
+carrier<-read.csv('NS_CAN_Carrier_20180711_172559.csv', sep=';')
+can_asset<-read.csv('NS_CAN_ASSET_Info_20180801_145420.csv', sep=';')
+test_readings<-read.csv('NS_CAN_Reading_20180827_161036.csv')
+sf_mapping<-read.csv("sf_mapping.csv")
+test_data<-read.csv("test_data.csv")
+full_can_asset<-read.csv("corrcanscnns_revised.csv")
+
+head(sf_mapping)
+head(can_asset, 20)
+head(test_readings, 20)
+head(carrier, 20)
+head(test_data)
+head(full_can_asset)
